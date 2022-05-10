@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 10vh;
+    background-color: #3d3d3d;
+    color: #fff;
+    text-align: center;
+    padding-top: 16px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px; 
+ }
+ .todo-form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+ }
+input{
+    width: 30%;
+    height: 5vh;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px;
+}
+.add-btn{
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+.add-btn:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.todo-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.del-button{
+   margin-left: 7rem;
+   padding: 5px;
+   text-align: center;
+  outline: none;
+   background-color: #fff;
+   border-radius: 5px;
+   border: 1px solid #000;
+}
+.del-button:hover{
+    background-color: red;
+    color: #fff;
+    border: 2px solid #000;
+    transition: 0.5s all;
+}
+.complet-button{
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+   outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.complet-button:hover{
+    background-color: rgb(33, 192, 33);
+    color: #fff;
+    border: 2px solid #000;
+    transition: 0.5s all;
+}
